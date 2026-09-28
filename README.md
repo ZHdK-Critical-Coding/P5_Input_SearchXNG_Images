@@ -13,14 +13,12 @@ Requirements: a running [SearXNG](https://docs.searxng.org) instance that
 is reachable from your computer, with the JSON format enabled and CORS
 headers added (see below).
 
-1. Set `SEARCH_URL` at the top of `sketch.js` to your instance:
-   ```js
-   const SEARCH_URL = "http://brian3.hermi.lan:8888/search?q=";
-   const TILE_SIZE = 250;
-   ```
-2. Open the folder in Visual Studio Code and start Live Server (click
-   **Go Live** in the status bar).
-3. Type a query and click **Search** or press Enter.
+Set `SEARCH_URL` at the top of `sketch.js` to your instance:
+
+```js
+const SEARCH_URL = "http://brian3.hermi.lan:8888/search?q=";
+const TILE_SIZE = 250;
+```
 
 ### SearXNG configuration
 
@@ -48,6 +46,12 @@ well. Images that fail to load are skipped (see console).
 
 Libraries (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (included, not
 used).
+
+## How to Run
+
+1. Open the folder in Visual Studio Code and start Live Server (click
+   **Go Live** in the status bar).
+2. Type a query and click **Search** or press Enter.
 
 ## Coding Help
 
